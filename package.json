@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "renovate-config",
+  "version": "0.0.1",
+  "description": "Renovate shareable config for yinm",
+  "author": "Yusuke Iinuma <yinm.cminor9@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/yinm/renovate-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yinm/renovate-config/issues"
+  },
+  "license": "MIT"
+}
