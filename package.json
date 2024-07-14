@@ -12,6 +12,9 @@
     "url": "https://github.com/yinm/renovate-config/issues"
   },
   "license": "MIT",
+  "scripts": {
+    "test": "renovate-config-validator default.json"
+  },
   "devDependencies": {
     "renovate": "^37.431.4"
   }
