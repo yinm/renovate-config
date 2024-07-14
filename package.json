@@ -11,5 +11,8 @@
   "bugs": {
     "url": "https://github.com/yinm/renovate-config/issues"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "renovate": "^37.431.4"
+  }
 }
