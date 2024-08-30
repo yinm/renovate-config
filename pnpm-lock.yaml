@@ -10,7 +10,7 @@ importers:
     devDependencies:
       renovate:
         specifier: ^38.0.0
-        version: 38.51.1(@aws-sdk/client-sso-oidc@3.621.0(@aws-sdk/client-sts@3.621.0))(encoding@0.1.13)(typanion@3.14.0)
+        version: 38.52.0(@aws-sdk/client-sso-oidc@3.621.0(@aws-sdk/client-sts@3.621.0))(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -886,8 +886,8 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
 
-  adm-zip@0.5.15:
-    resolution: {integrity: sha512-jYPWSeOA8EFoZnucrKCNihqBjoEGQSU4HKgHYQgKNEQ0pQF9a/DYuo/+fAxY76k4qe75LUlLWpAM1QWcBMTOKw==}
+  adm-zip@0.5.16:
+    resolution: {integrity: sha512-TGw5yVi4saajsSEgz25grObGHEUaDrniwvA2qwSC060KfqGPdglhvPMA2lPIoxs3PQIItj2iag35fONcQqgUaQ==}
     engines: {node: '>=12.0'}
 
   agent-base@7.1.1:
@@ -2400,8 +2400,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@38.51.1:
-    resolution: {integrity: sha512-UYx9n1x6O0QBJB9dPzRid4t4UsilTN/OrNUYh7EwLxwLPT73jGcCTrCTuignvLKLpeqsh2N0P5efQCc+zVbKxQ==}
+  renovate@38.52.0:
+    resolution: {integrity: sha512-icbciTemIGmpOCDO5xXiThcWCr38Jh8W9WUA15BEGcEy1ZPapjOsaJxgnNppgeN/zz8Li0JbYcvLQjfFQdiRyQ==}
     engines: {node: ^20.15.1, pnpm: ^9.0.0}
     hasBin: true
 
@@ -4079,7 +4079,7 @@ snapshots:
     dependencies:
       '@octokit/rest': 20.1.1
       '@renovatebot/osv-offline-db': 1.6.0
-      adm-zip: 0.5.15
+      adm-zip: 0.5.16
       fs-extra: 11.2.0
       got: 11.8.6
       luxon: 3.5.0
@@ -4591,7 +4591,7 @@ snapshots:
 
   acorn@8.12.1: {}
 
-  adm-zip@0.5.15: {}
+  adm-zip@0.5.16: {}
 
   agent-base@7.1.1:
     dependencies:
@@ -6269,7 +6269,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@38.51.1(@aws-sdk/client-sso-oidc@3.621.0(@aws-sdk/client-sts@3.621.0))(encoding@0.1.13)(typanion@3.14.0):
+  renovate@38.52.0(@aws-sdk/client-sso-oidc@3.621.0(@aws-sdk/client-sts@3.621.0))(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.621.0
       '@aws-sdk/client-ec2': 3.621.0
