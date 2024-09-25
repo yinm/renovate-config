@@ -10,7 +10,7 @@ importers:
     devDependencies:
       renovate:
         specifier: ^38.0.0
-        version: 38.88.1(@aws-sdk/client-sso-oidc@3.637.0(@aws-sdk/client-sts@3.637.0))(encoding@0.1.13)(typanion@3.14.0)
+        version: 38.88.2(@aws-sdk/client-sso-oidc@3.637.0(@aws-sdk/client-sts@3.637.0))(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -821,8 +821,8 @@ packages:
   '@types/moo@0.5.5':
     resolution: {integrity: sha512-eXQpwnkI4Ntw5uJg6i2PINdRFWLr55dqjuYQaLHNjvqTzF14QdNWbCbml9sza0byyXNA0hZlHtcdN+VNDcgVHA==}
 
-  '@types/node@22.7.0':
-    resolution: {integrity: sha512-MOdOibwBs6KW1vfqz2uKMlxq5xAfAZ98SZjO8e3XnAbFnTJtAspqhWk7hrdSAs9/Y14ZWMiy7/MxMUzAOadYEw==}
+  '@types/node@22.7.1':
+    resolution: {integrity: sha512-adOMRLVmleuWs/5V/w5/l7o0chDK/az+5ncCsIapTKogsu/3MVWvSgP58qVTXi5IwpfGt8pMobNq9rOWtJyu5Q==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -2390,8 +2390,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@38.88.1:
-    resolution: {integrity: sha512-Y+shQx1TaV+9P5QPDZm2WUhS4K23BXiG3Gy6y5qMCn7QvwThlh7OvDhTkcuACxcmZhqugxX540hqM9uU9K+N4w==}
+  renovate@38.88.2:
+    resolution: {integrity: sha512-R02mdj2RJRpxmxNyv5gertWleeRf6syo5Jh0iYEVgWuT/FPpBYneS4K+9rWn/r+dOvi87dNWb7vOCXCx8MmMrw==}
     engines: {node: ^20.15.1, pnpm: ^9.0.0}
     hasBin: true
 
@@ -4463,13 +4463,13 @@ snapshots:
 
   '@types/bunyan@1.8.9':
     dependencies:
-      '@types/node': 22.7.0
+      '@types/node': 22.7.1
 
   '@types/cacheable-request@6.0.3':
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 22.7.0
+      '@types/node': 22.7.1
       '@types/responselike': 1.0.3
 
   '@types/emscripten@1.39.13': {}
@@ -4478,7 +4478,7 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 22.7.0
+      '@types/node': 22.7.1
 
   '@types/mdast@3.0.15':
     dependencies:
@@ -4488,7 +4488,7 @@ snapshots:
 
   '@types/moo@0.5.5': {}
 
-  '@types/node@22.7.0':
+  '@types/node@22.7.1':
     dependencies:
       undici-types: 6.19.8
 
@@ -4496,7 +4496,7 @@ snapshots:
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 22.7.0
+      '@types/node': 22.7.1
 
   '@types/semver@7.5.8': {}
 
@@ -4508,7 +4508,7 @@ snapshots:
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 22.7.0
+      '@types/node': 22.7.1
     optional: true
 
   '@yarnpkg/core@4.1.2(typanion@3.14.0)':
@@ -6129,7 +6129,7 @@ snapshots:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 22.7.0
+      '@types/node': 22.7.1
       long: 5.2.3
 
   protocols@2.0.1: {}
@@ -6251,7 +6251,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@38.88.1(@aws-sdk/client-sso-oidc@3.637.0(@aws-sdk/client-sts@3.637.0))(encoding@0.1.13)(typanion@3.14.0):
+  renovate@38.88.2(@aws-sdk/client-sso-oidc@3.637.0(@aws-sdk/client-sts@3.637.0))(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.637.0
       '@aws-sdk/client-ec2': 3.641.0
