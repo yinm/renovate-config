@@ -10,7 +10,7 @@ importers:
     devDependencies:
       renovate:
         specifier: ^38.0.0
-        version: 38.113.0(@aws-sdk/client-sso-oidc@3.658.1(@aws-sdk/client-sts@3.658.1))(encoding@0.1.13)(typanion@3.14.0)
+        version: 38.114.0(@aws-sdk/client-sso-oidc@3.658.1(@aws-sdk/client-sts@3.658.1))(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -2102,8 +2102,8 @@ packages:
     resolution: {integrity: sha512-Z4SmBUweYa09+o6pG+eASabEpP6QkQ70yHj351pQoEXIs8uHbaU2DWVmzBANKgflPa47A50PtB2+NgRpQvr7vA==}
     engines: {node: '>= 10'}
 
-  node-abi@3.69.0:
-    resolution: {integrity: sha512-H/k5/+HXto3xXTcqTIl3DAWaelvNVYSoZ2IJVDFJEoYyZYcoRhcRy+1WMMhsKAG+UU7wSCI3DRurJ0DxFMXvyg==}
+  node-abi@3.70.0:
+    resolution: {integrity: sha512-xMTIZdvAyzGyxwOwxXv/8V/f/KAqKWNCeNIIFu2doEtQp9wvMUTam036At/iVtJqum6n5ljbAhUmXAUOhyivSA==}
     engines: {node: '>=10'}
 
   node-fetch@2.7.0:
@@ -2390,8 +2390,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@38.113.0:
-    resolution: {integrity: sha512-LDviSgpHxlkhpgnIv4FvSL3WR5KtQIQ9lz+wMWs7aHDKuJn2pf5PBDOgtlTsb4ploSJTeuObCUtSX+5T+PamuQ==}
+  renovate@38.114.0:
+    resolution: {integrity: sha512-2Z95ViPxKhK/GHNNJwo9ca4QMxh/okNcCJrzkUp0UZBIIeE44TXCNolsXvLuwjfPiSgA4zH3bVU5NRfbEnHRdg==}
     engines: {node: ^20.15.1, pnpm: ^9.0.0}
     hasBin: true
 
@@ -5897,7 +5897,7 @@ snapshots:
 
   neotraverse@0.6.18: {}
 
-  node-abi@3.69.0:
+  node-abi@3.70.0:
     dependencies:
       semver: 7.6.3
     optional: true
@@ -6096,7 +6096,7 @@ snapshots:
       minimist: 1.2.8
       mkdirp-classic: 0.5.3
       napi-build-utils: 1.0.2
-      node-abi: 3.69.0
+      node-abi: 3.70.0
       pump: 3.0.2
       rc: 1.2.8
       simple-get: 4.0.1
@@ -6253,7 +6253,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@38.113.0(@aws-sdk/client-sso-oidc@3.658.1(@aws-sdk/client-sts@3.658.1))(encoding@0.1.13)(typanion@3.14.0):
+  renovate@38.114.0(@aws-sdk/client-sso-oidc@3.658.1(@aws-sdk/client-sts@3.658.1))(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.658.1
       '@aws-sdk/client-ec2': 3.658.1
