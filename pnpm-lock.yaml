@@ -10,7 +10,7 @@ importers:
     devDependencies:
       renovate:
         specifier: ^39.0.0
-        version: 39.22.0(@aws-sdk/client-sso-oidc@3.687.0(@aws-sdk/client-sts@3.687.0))(encoding@0.1.13)(typanion@3.14.0)
+        version: 39.23.0(@aws-sdk/client-sso-oidc@3.687.0(@aws-sdk/client-sts@3.687.0))(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -2286,8 +2286,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@39.22.0:
-    resolution: {integrity: sha512-bVGo5bm3fmoIg1TCzCVBqzHFz/8hxieuRlue7BSGsra5/kk7p0oS8yApUW9ICW7ClyRH/njrezwePzKZyeG+Ew==}
+  renovate@39.23.0:
+    resolution: {integrity: sha512-P5nQ84rzWE1UDTBf6f0eOBCMQXRNID/socjEmLcJEXKcHMyvHwJCXR34x0OUcv+u+yo/LE7kdwIm5bfQARYRfA==}
     engines: {node: ^20.15.1 || ^22.11.0, pnpm: ^9.0.0}
     hasBin: true
 
@@ -2689,8 +2689,8 @@ packages:
   whatwg-url@5.0.0:
     resolution: {integrity: sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==}
 
-  which-typed-array@1.1.15:
-    resolution: {integrity: sha512-oV0jmFtUky6CXfkqehVvBP/LSWJ2sy4vWMioiENyJLePrBO/yKyV9OyJySfAKosh+RYkIl5zJCNZ8/4JncrpdA==}
+  which-typed-array@1.1.16:
+    resolution: {integrity: sha512-g+N+GAWiRj66DngFwHvISJd+ITsyphZvD1vChfVg6cEdnzy53GzB3oy0fUNlvhz7H7+MiqhYr26qxQShCpKTTQ==}
     engines: {node: '>= 0.4'}
 
   which@2.0.2:
@@ -5295,7 +5295,7 @@ snapshots:
 
   is-typed-array@1.1.13:
     dependencies:
-      which-typed-array: 1.1.15
+      which-typed-array: 1.1.16
 
   is-typedarray@1.0.0: {}
 
@@ -6000,7 +6000,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@39.22.0(@aws-sdk/client-sso-oidc@3.687.0(@aws-sdk/client-sts@3.687.0))(encoding@0.1.13)(typanion@3.14.0):
+  renovate@39.23.0(@aws-sdk/client-sso-oidc@3.687.0(@aws-sdk/client-sts@3.687.0))(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.687.0
       '@aws-sdk/client-ec2': 3.687.0
@@ -6513,7 +6513,7 @@ snapshots:
       is-arguments: 1.1.1
       is-generator-function: 1.0.10
       is-typed-array: 1.1.13
-      which-typed-array: 1.1.15
+      which-typed-array: 1.1.16
 
   uuid@9.0.1: {}
 
@@ -6545,7 +6545,7 @@ snapshots:
       tr46: 0.0.3
       webidl-conversions: 3.0.1
 
-  which-typed-array@1.1.15:
+  which-typed-array@1.1.16:
     dependencies:
       available-typed-arrays: 1.0.7
       call-bind: 1.0.7
