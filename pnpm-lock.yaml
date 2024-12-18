@@ -10,7 +10,7 @@ importers:
     devDependencies:
       renovate:
         specifier: ^39.0.0
-        version: 39.62.3(@aws-sdk/client-sso-oidc@3.699.0(@aws-sdk/client-sts@3.699.0))(encoding@0.1.13)(typanion@3.14.0)
+        version: 39.62.5(@aws-sdk/client-sso-oidc@3.699.0(@aws-sdk/client-sts@3.699.0))(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -1505,8 +1505,8 @@ packages:
   graceful-fs@4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
 
-  graph-data-structure@4.2.0:
-    resolution: {integrity: sha512-DFGyFROTYJAXwLjBPvj6LYihF2zIUDKt6Rzgo18E+FFKtHm7dJnE/bMHVp6fji5IchykUg3ctS9gwS0L5azwDw==}
+  graph-data-structure@4.3.0:
+    resolution: {integrity: sha512-rj0SZL3BLXHGZ/K6+Mw0PNrPu+x0uvHukr5dN/10u4Z77ROz5D+D66R+a3X9yZqJKVDcg/fN1FM5NfMX18ErAQ==}
 
   grapheme-splitter@1.0.4:
     resolution: {integrity: sha512-bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==}
@@ -1703,8 +1703,8 @@ packages:
     resolution: {integrity: sha512-hFoiJiTl63nn+kstHGBtewWSKnQLpyb155KHheA1l39uvtO9nWIop1p3udqPcUd/xbF1VLMO4n7OI6p7RbngDg==}
     engines: {node: '>=8'}
 
-  is-typed-array@1.1.14:
-    resolution: {integrity: sha512-lQUsHzcTb7rH57dajbOuZEuMDXjs9f04ZloER4QOpjpKcaw4f98BRUrs8aiO9Z4G7i7B0Xhgarg6SCgYcYi8Nw==}
+  is-typed-array@1.1.15:
+    resolution: {integrity: sha512-p3EcsicXjit7SaskXHs1hA91QxgTw46Fv6EFKKGS5DRFLD8yKnohjF3hxoju94b/OcMZoQukzpPpBE9uLVKzgQ==}
     engines: {node: '>= 0.4'}
 
   is-typedarray@1.0.0:
@@ -2340,8 +2340,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@39.62.3:
-    resolution: {integrity: sha512-c4acheUgFW7jZxIrOc5h5wUneYgeMXVHgsyXonTlGcC1sx2Ur7rsFXb+7vuspyI/jazMT0umBnqB0bF2vtHDlw==}
+  renovate@39.62.5:
+    resolution: {integrity: sha512-LvlwooziG04STYv613Bpn7FjzRePyLBGuk2/z6gjv6Vd6bW9ktz7Qp4rA/u53VNvfKtDFb4h8zz39ScxykbMsA==}
     engines: {node: ^20.15.1 || ^22.11.0, pnpm: ^9.0.0}
     hasBin: true
 
@@ -2775,8 +2775,8 @@ packages:
   whatwg-url@5.0.0:
     resolution: {integrity: sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==}
 
-  which-typed-array@1.1.16:
-    resolution: {integrity: sha512-g+N+GAWiRj66DngFwHvISJd+ITsyphZvD1vChfVg6cEdnzy53GzB3oy0fUNlvhz7H7+MiqhYr26qxQShCpKTTQ==}
+  which-typed-array@1.1.18:
+    resolution: {integrity: sha512-qEcY+KJYlWyLH9vNbsr6/5j59AXk5ni5aakf8ldzBvGde6Iz4sxZGkJyWSAueTG7QhOvNRYb1lDdFmL5Td0QKA==}
     engines: {node: '>= 0.4'}
 
   which@2.0.2:
@@ -5237,7 +5237,7 @@ snapshots:
 
   graceful-fs@4.2.11: {}
 
-  graph-data-structure@4.2.0: {}
+  graph-data-structure@4.3.0: {}
 
   grapheme-splitter@1.0.4: {}
 
@@ -5422,9 +5422,9 @@ snapshots:
 
   is-stream@2.0.1: {}
 
-  is-typed-array@1.1.14:
+  is-typed-array@1.1.15:
     dependencies:
-      which-typed-array: 1.1.16
+      which-typed-array: 1.1.18
 
   is-typedarray@1.0.0: {}
 
@@ -6141,7 +6141,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@39.62.3(@aws-sdk/client-sso-oidc@3.699.0(@aws-sdk/client-sts@3.699.0))(encoding@0.1.13)(typanion@3.14.0):
+  renovate@39.62.5(@aws-sdk/client-sso-oidc@3.699.0(@aws-sdk/client-sts@3.699.0))(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.699.0
       '@aws-sdk/client-ec2': 3.701.0
@@ -6205,7 +6205,7 @@ snapshots:
       good-enough-parser: 1.1.23
       google-auth-library: 9.15.0(encoding@0.1.13)
       got: 11.8.6
-      graph-data-structure: 4.2.0
+      graph-data-structure: 4.3.0
       handlebars: 4.7.8
       ignore: 6.0.2
       ini: 5.0.0
@@ -6702,8 +6702,8 @@ snapshots:
       inherits: 2.0.4
       is-arguments: 1.2.0
       is-generator-function: 1.0.10
-      is-typed-array: 1.1.14
-      which-typed-array: 1.1.16
+      is-typed-array: 1.1.15
+      which-typed-array: 1.1.18
 
   uuid@9.0.1: {}
 
@@ -6735,10 +6735,11 @@ snapshots:
       tr46: 0.0.3
       webidl-conversions: 3.0.1
 
-  which-typed-array@1.1.16:
+  which-typed-array@1.1.18:
     dependencies:
       available-typed-arrays: 1.0.7
       call-bind: 1.0.8
+      call-bound: 1.0.3
       for-each: 0.3.3
       gopd: 1.2.0
       has-tostringtag: 1.0.2
