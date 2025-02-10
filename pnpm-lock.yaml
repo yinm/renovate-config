@@ -10,7 +10,7 @@ importers:
     devDependencies:
       renovate:
         specifier: ^39.0.0
-        version: 39.156.0(encoding@0.1.13)(typanion@3.14.0)
+        version: 39.156.1(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -2382,8 +2382,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@39.156.0:
-    resolution: {integrity: sha512-ZSb2K9C1ake1U4BfNqlU6vpg5kiIyAbsGWFWa4fJyOu9UbaWpX+u55paRJgQjCFFMOAvy+QCQwaidk0WmIId6A==}
+  renovate@39.156.1:
+    resolution: {integrity: sha512-0Fh0d6nVHJfYcgZZMeXzcuh0PmAYfwmniOGTdkTmgon3EGhJytRejOGqDLBGrMVrlfa9z1gc7Wxq0Dkf45clwQ==}
     engines: {node: ^20.15.1 || ^22.11.0, pnpm: ^9.0.0}
     hasBin: true
 
@@ -2542,8 +2542,8 @@ packages:
     resolution: {integrity: sha512-HehCEsotFqbPW9sJ8WVYB6UbmIMv7kUUORIF2Nncq4VQvBfNBLibW9YZR5dlYCSUhwcD628pRllm7n+E+YTzJw==}
     engines: {node: '>= 14'}
 
-  socks@2.8.3:
-    resolution: {integrity: sha512-l5x7VUUWbjVFbafGLxPWkYsHIhEvmF85tbIeFZWc8ZPtoMyybuEhL7Jye/ooC4/d48FgOjSJXgsF/AJPYCW8Zw==}
+  socks@2.8.4:
+    resolution: {integrity: sha512-D3YaD0aRxR3mEcqnidIs7ReYJFVzWdd6fXJYUM8ixcQcJRGTka/b3saV0KflYhyVJXKhb947GndU35SxYNResQ==}
     engines: {node: '>= 10.0.0', npm: '>= 3.0.0'}
 
   sort-keys@4.2.0:
@@ -6184,7 +6184,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@39.156.0(encoding@0.1.13)(typanion@3.14.0):
+  renovate@39.156.1(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.738.0
       '@aws-sdk/client-ec2': 3.738.0
@@ -6471,12 +6471,12 @@ snapshots:
     dependencies:
       agent-base: 7.1.3
       debug: 4.4.0
-      socks: 2.8.3
+      socks: 2.8.4
     transitivePeerDependencies:
       - supports-color
     optional: true
 
-  socks@2.8.3:
+  socks@2.8.4:
     dependencies:
       ip-address: 9.0.5
       smart-buffer: 4.2.0
