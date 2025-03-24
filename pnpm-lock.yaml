@@ -10,7 +10,7 @@ importers:
     devDependencies:
       renovate:
         specifier: ^39.0.0
-        version: 39.205.0(encoding@0.1.13)(typanion@3.14.0)
+        version: 39.207.2(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -804,8 +804,8 @@ packages:
   '@types/moo@0.5.5':
     resolution: {integrity: sha512-eXQpwnkI4Ntw5uJg6i2PINdRFWLr55dqjuYQaLHNjvqTzF14QdNWbCbml9sza0byyXNA0hZlHtcdN+VNDcgVHA==}
 
-  '@types/node@22.13.11':
-    resolution: {integrity: sha512-iEUCUJoU0i3VnrCmgoWCXttklWcvoCIx4jzcP22fioIVSdTmjgoEvmAO/QPw6TcS9k5FrNgn4w7q5lGOd1CT5g==}
+  '@types/node@22.13.13':
+    resolution: {integrity: sha512-ClsL5nMwKaBRwPcCvH8E7+nU4GxHVx1axNvMZTFHMEfNI7oahimt26P5zjVCRrjiIWj6YFXfE1v3dEp94wLcGQ==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -1826,8 +1826,8 @@ packages:
   lru-cache@10.4.3:
     resolution: {integrity: sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==}
 
-  lru-cache@11.0.2:
-    resolution: {integrity: sha512-123qHRfJBmo2jXDbo/a5YOQrJoHF/GNQTLzQ5+IdK5pWpceK17yRc6ozlWd25FxvGKQbIUs91fDFkXmDHTKcyA==}
+  lru-cache@11.1.0:
+    resolution: {integrity: sha512-QIXZUBJUx+2zHUdQujWejBkcD9+cs94tLn0+YL8UrCh+D5sCXZ4c7LaEH48pNwRY3MLDgqUFyhlCyjJPf1WP0A==}
     engines: {node: 20 || >=22}
 
   lru-cache@6.0.0:
@@ -2322,8 +2322,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@39.205.0:
-    resolution: {integrity: sha512-uUPOQxVqcS5BqVyDua0iJ6Bwijx8htgWFqDl8m87/o8d4YOJUBqiJQAFr0sYRZPOr9e+7d7HRnPpdlVLjSX5Rw==}
+  renovate@39.207.2:
+    resolution: {integrity: sha512-Woz7K5DDzJj8UK8UCKJB/RvvpsNLDN34HSzYvbjnm6xXKpV8bI5FfPrqtVdMIO3GkoRtOaMd3fiOfv+gppwTsw==}
     engines: {node: ^20.15.1 || ^22.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -4340,13 +4340,13 @@ snapshots:
 
   '@types/bunyan@1.8.11':
     dependencies:
-      '@types/node': 22.13.11
+      '@types/node': 22.13.13
 
   '@types/cacheable-request@6.0.3':
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 22.13.11
+      '@types/node': 22.13.13
       '@types/responselike': 1.0.3
 
   '@types/emscripten@1.40.0': {}
@@ -4355,7 +4355,7 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 22.13.11
+      '@types/node': 22.13.13
 
   '@types/mdast@3.0.15':
     dependencies:
@@ -4365,7 +4365,7 @@ snapshots:
 
   '@types/moo@0.5.5': {}
 
-  '@types/node@22.13.11':
+  '@types/node@22.13.13':
     dependencies:
       undici-types: 6.20.0
 
@@ -4375,7 +4375,7 @@ snapshots:
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 22.13.11
+      '@types/node': 22.13.13
 
   '@types/semver@7.5.8': {}
 
@@ -4389,7 +4389,7 @@ snapshots:
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 22.13.11
+      '@types/node': 22.13.13
     optional: true
 
   '@yarnpkg/core@4.2.1(typanion@3.14.0)':
@@ -5461,7 +5461,7 @@ snapshots:
 
   lru-cache@10.4.3: {}
 
-  lru-cache@11.0.2: {}
+  lru-cache@11.1.0: {}
 
   lru-cache@6.0.0:
     dependencies:
@@ -5870,7 +5870,7 @@ snapshots:
 
   path-scurry@2.0.0:
     dependencies:
-      lru-cache: 11.0.2
+      lru-cache: 11.1.0
       minipass: 7.1.2
 
   pend@1.2.0: {}
@@ -5929,7 +5929,7 @@ snapshots:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 22.13.11
+      '@types/node': 22.13.13
       long: 5.3.1
 
   protocols@2.0.2: {}
@@ -6046,7 +6046,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@39.205.0(encoding@0.1.13)(typanion@3.14.0):
+  renovate@39.207.2(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.738.0
       '@aws-sdk/client-ec2': 3.738.0
