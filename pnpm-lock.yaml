@@ -10,7 +10,7 @@ importers:
     devDependencies:
       renovate:
         specifier: ^39.0.0
-        version: 39.229.0(encoding@0.1.13)(typanion@3.14.0)
+        version: 39.230.1(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -506,8 +506,8 @@ packages:
     resolution: {integrity: sha512-xhFTlmZhP60n44d3voXM0WF09cJM59Ua1WhcfSYh1AiafKbTqiXQcfbDLoneLAGjYn5ZsSaN1/uIDJbGULTDfw==}
     engines: {node: '>=18.12.0'}
 
-  '@renovatebot/osv-offline@1.6.3':
-    resolution: {integrity: sha512-2BlfQCmui/ptqRWKOeQsfnrp1svwu/Yu0Jvjvlof97gTY9Ooxe1JCToFn7K7z+21dUqT4aTh75nJBpxqc7TVKg==}
+  '@renovatebot/osv-offline@1.6.4':
+    resolution: {integrity: sha512-/zKTvQNX9/P3fy6/7f0TJd8W/WywD837xCLrvptbuXx0RjgOn5wOs+eFmeEOTmMyxfM5YhvTPdrLzC+jO3toJA==}
     engines: {node: '>=18.12.0'}
 
   '@renovatebot/pep440@4.1.0':
@@ -936,8 +936,8 @@ packages:
   better-sqlite3@11.9.1:
     resolution: {integrity: sha512-Ba0KR+Fzxh2jDRhdg6TSH0SJGzb8C0aBY4hR8w8madIdIzzC6Y1+kx5qR6eS1Z+Gy20h6ZU28aeyg0z1VIrShQ==}
 
-  bignumber.js@9.2.0:
-    resolution: {integrity: sha512-JocpCSOixzy5XFJi2ub6IMmV/G9i8Lrm2lZvwBv9xPdglmZM0ufDVBbjbrfU/zuLvBfD7Bv2eYxz9i+OHTgkew==}
+  bignumber.js@9.2.1:
+    resolution: {integrity: sha512-+NzaKgOUvInq9TIUZ1+DRspzf/HApkCwD4btfuasFTdrfnOxqx853TgDpMolp+uv4RpRp7bPcEU2zKr9+fRmyw==}
 
   bindings@1.5.0:
     resolution: {integrity: sha512-p2q/t/mhvuOj/UeLlV6566GD/guowlr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ==}
@@ -1825,8 +1825,8 @@ packages:
     resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
     engines: {node: '>=10'}
 
-  luxon@3.5.0:
-    resolution: {integrity: sha512-rh+Zjr6DNfUYR3bPwJEnuwDdqMbxZW7LOQfUN4B54+Cl+0o5zaU9RJ6bcidfDtC1cWCZXQ+nvX8bf6bAji37QQ==}
+  luxon@3.6.0:
+    resolution: {integrity: sha512-WE7p0p7W1xji9qxkLYsvcIxZyfP48GuFrWIBQZIsbjCyf65dG1rv4n83HcOyEyhvzxJCrUoObCRNFgRNIQ5KNA==}
     engines: {node: '>=12'}
 
   make-fetch-happen@13.0.1:
@@ -2313,8 +2313,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@39.229.0:
-    resolution: {integrity: sha512-KqApAxwUHPuEWWfAbmmi4n6rh60TevlDVkknBHNF+CFXnkb8QfFFm8pJExa8d6iw12Q52ryBDgdmaaK3D2Zmsw==}
+  renovate@39.230.1:
+    resolution: {integrity: sha512-jVaA4YSdaml+ON4YqU1OcaCgGWRqnkoW3ei5q/u+E09wTIledCYjz+ozFZGRDv4MKprm026jQ+N2okY5VwbiIw==}
     engines: {node: ^20.15.1 || ^22.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -3965,13 +3965,13 @@ snapshots:
     dependencies:
       '@seald-io/nedb': 4.1.1
 
-  '@renovatebot/osv-offline@1.6.3':
+  '@renovatebot/osv-offline@1.6.4':
     dependencies:
       '@renovatebot/osv-offline-db': 1.7.3
       adm-zip: 0.5.16
       fs-extra: 11.3.0
       got: 11.8.6
-      luxon: 3.5.0
+      luxon: 3.6.0
 
   '@renovatebot/pep440@4.1.0': {}
 
@@ -4543,7 +4543,7 @@ snapshots:
       prebuild-install: 7.1.3
     optional: true
 
-  bignumber.js@9.2.0: {}
+  bignumber.js@9.2.1: {}
 
   bindings@1.5.0:
     dependencies:
@@ -5395,7 +5395,7 @@ snapshots:
 
   json-bigint@1.0.0:
     dependencies:
-      bignumber.js: 9.2.0
+      bignumber.js: 9.2.1
 
   json-buffer@3.0.1: {}
 
@@ -5488,7 +5488,7 @@ snapshots:
     dependencies:
       yallist: 4.0.0
 
-  luxon@3.5.0: {}
+  luxon@3.6.0: {}
 
   make-fetch-happen@13.0.1:
     dependencies:
@@ -6066,7 +6066,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@39.229.0(encoding@0.1.13)(typanion@3.14.0):
+  renovate@39.230.1(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.777.0
       '@aws-sdk/client-ec2': 3.779.0
@@ -6092,7 +6092,7 @@ snapshots:
       '@qnighy/marshal': 0.1.3
       '@renovatebot/detect-tools': 1.1.0
       '@renovatebot/kbpgp': 4.0.1
-      '@renovatebot/osv-offline': 1.6.3
+      '@renovatebot/osv-offline': 1.6.4
       '@renovatebot/pep440': 4.1.0
       '@renovatebot/ruby-semver': 4.0.0
       '@sindresorhus/is': 4.6.0
@@ -6143,7 +6143,7 @@ snapshots:
       jsonata: 2.0.6
       jsonc-parser: 3.3.1
       klona: 2.0.6
-      luxon: 3.5.0
+      luxon: 3.6.0
       markdown-it: 14.1.0
       markdown-table: 2.0.0
       minimatch: 10.0.1
